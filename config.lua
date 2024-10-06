@@ -11,7 +11,7 @@ private.config = {
 	anims		 = true,	 -- play animations
 	offset_x 	 = 4,		 -- offset between toasts, if first is displayed then second will be higher/lower from previous
 	point_x		 = 0,		 -- position of toast by X
-	point_y		 = 0,        -- position of toast by Y
+	point_y		 = 10,        -- position of toast by Y
 	
 	--	activity
 	looting		 = true,     -- fire when you yourself are looting something
@@ -19,13 +19,13 @@ private.config = {
 	rolling		 = true,	 -- fire when you roll items in an instance
 	
 	--	toasts
-	money		 = true,	 -- display money toast
+	money		 = false,	 -- display money toast
 	recipes 	 = true,	 -- display recipe toast
-	honor		 = true,	 -- display battleground toast
+	honor		 = false,	 -- display battleground toast NOTE: was false
 	
 	--	filtering
-	ignore_level = true, 	 -- filter for item quality, if true it will show all items quality
-	low_level	 = 2,		 -- what item quality will be prioritized at low level (e.g. not less than 2 [uncommon])
+	ignore_level = false, 	 -- filter for item quality, if true it will show all items quality
+	low_level	 = 3,		 -- what item quality will be prioritized at low level (e.g. not less than 2 [uncommon])
 	max_level	 = 4,		 -- what item quality will be prioritized at 80 level (e.g. not less than 4 [epic])
 	--[[
 		req. ignore_level = false
